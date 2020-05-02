@@ -1,0 +1,223 @@
+body {
+    font-family: Noto Sans TC;
+    margin: 0%;
+    background-color: #DDDDDD;
+}
+
+.hero {
+    width: 100%;
+    height: 300px;
+    color: white;
+    background-image: url(https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg);
+    background-position: center;
+    overflow: hidden;
+}
+
+.hero-content {
+    padding: 120px 150px 70px 150px;
+}
+
+.hero-title {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-paragraph {
+    width: 70%;
+}
+
+.container {
+    padding: 0px 40px;
+    margin: 0px 40px;
+    
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 50%;
+    margin: 10px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.section-title {
+    text-align: center;
+    margin: 120px 0px 50px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#navbar {
+    background-color: #223344;
+    color: white;
+    text-align: center;
+}
+
+#site-title {
+    padding: 30px 0px 30px 0px;
+    font-size: 30px;
+}
+
+.nav-links-list {
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    margin: 10px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+
+
+.title {
+    margin: 10px 0px 10px 10px;
+    font-weight: bold; 
+    font-size: 24px;
+}
+
+
+
+.highlight {
+    color: red;
+}
+
+#info-img {
+    width: 400px;
+    border-radius: 200px;
+}
+
+.introduction {
+    padding: 0px 300px 0px 300px;
+}
+
+.introduction .info-img img{
+    width: 450px;
+}
+
+
+.info-paragraph {
+    width: 40%;
+}
+
+.features {
+    padding: 30px 80px;
+    background-color: white;
+
+}
+
+.our-skills {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.skill-tree {
+    text-align: center;
+    max-width: 100%;
+    width: 90%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.skill-tree img {
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.skill-tree > a.link {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    width: 19%;
+    height: 19%;
+    display: block;
+    z-index: 1;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    background-color: #223344;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .hero-title {
+        font-size: 28px;
+    }
+
+    .hero-content {
+        padding: 120px 10% 70px 10%;
+    }
+
+    .container {
+        padding: 0px 10px;
+        margin: 0px 10px;
+    }
+
+    .card {
+        width: 70%;
+        margin: 20px;
+        padding: 30px 10px 30px 10px;
+        border-radius: 6px;
+        text-align: center;
+        background-color: rgb(233, 233, 233);
+    }
+
+    .section-title {
+        text-align: center;
+        margin: 80px 0px 50px 0px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .introduction {
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .introduction .info-img img{
+        width: 100%;
+    }
+    
+    .info-paragraph {
+        text-align: center;
+        margin-left: 0px;
+        width: 70%;
+        margin: 40px 0px 80px 0px;
+    }
+
+    .features {
+        padding: 0px 0px;
+        background-color: white;
+    
+    }
+
+} 
+
+
