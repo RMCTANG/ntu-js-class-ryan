@@ -35,7 +35,7 @@ body {
 
 .card-list {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
 }
 
@@ -109,7 +109,7 @@ body {
 }
 
 .introduction {
-    padding: 0px 300px 0px 300px;
+    padding: 0px 300px 50px 300px;
 }
 
 .introduction .info-img img{
@@ -166,7 +166,7 @@ body {
     color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
     
     .hero-title {
         font-size: 28px;
@@ -180,6 +180,12 @@ body {
         padding: 0px 10px;
         margin: 0px 10px;
     }
+
+    .card-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
     .card {
         width: 70%;
